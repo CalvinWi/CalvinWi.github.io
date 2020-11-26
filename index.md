@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+## Introductions
+
+Greetings, my name is Calvin Willoughby. I have recently finished my pursuit of a bachelor’s degree in computer science. In this pursuit, I have explored a great variety of fields in computer science. I have learned about I.T., data mining, website design, mobile design, and even computer graphics just to name a few. As I experienced each field, I didn’t just learn technical information or how to code. I also learned how to work in the computer science industry.
+
+I took an entire class on collaboration and teamwork. In it, the students had to work together and contribute to a GitHub repository like actual developers. I also learned about secure coding, protecting your software from vulnerabilities attackers could exploit. I am familiar with the Agile and Waterfall software development process models as well. 
+
+Moving on, experiencing multiple computer science fields has helped me discover where I excel. I have developed strong skills in back-end software engineering. I am not only confident in my abilities, but I enjoy it as well. Because of this, a career in back-end software engineering has become my professional goal. I am also interested in app design. 
+
+Don’t let my confidence in my software engineering skills lead you to believe they are the only skills I have developed. For example, I have also become skilled at algorithms and data structures, and I am good at database management as well. I have worked on databases with SQL and Mongodb. In this portfolio, I have included three artifacts that will showcase my skills in software engineering, algorithms and data structures, and databases. 
+
+The first artifact will showcase my skills in software engineering. The artifact is a simple riddle game made with Java in the Eclipse IDE. The second artifact will showcase my skills in algorithms and data structures. The artifact is a Python script designed to make CRUD operations in a specific Mongodb database more convenient. The final artifact is a collection from a Mongodb database. Clearly, it will showcase my skills with databases. Together, these artifacts will give you a feel for the range of my skills in computer science. 
 
 You can use the [editor on GitHub](https://github.com/CalvinWi/CalvinWi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
+You can see the json file I created to show my skills with Mongodb and database management [here](https://github.com/CalvinWi/mongodb-books-collection).
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Artifact One  -  The Riddle Game
 
-```markdown
-Syntax highlighted code block
+To access the code for this artifact, click [here](https://github.com/CalvinWi/riddle-game-artifact.git).
 
-# Header 1
-## Header 2
-### Header 3
+To begin, for my software engineering artifact, I have created a riddle game that requires the user to create an account and login before being able to play. The login feature stores both a username and associated password in a hashmap. The riddle game consists of three riddles with the solution presented in a multiple-choice format; users choose one of the provided possible solutions that they think is correct. Users must solve the riddle they are on before they can move on to the next riddle. I created the riddle game at the start of the last term because I lost access to almost all of my previous coursework and needed an artifact to work on. A riddle game seemed like a simple way to demonstrate my software engineering skills. 
 
-- Bulleted
-- List
+Moving on, I chose the riddle game as my software engineering artifact because while the game itself is simple to play, it requires complex logic in order to function. It is this logic that shows the depth of my understanding of software development. The major components of the artifact are while loops and if/else statements. Many of the if/else statements are contained in the while loops. My extensive use of the loops and conditional statements to create a simple riddle game shows that I have a strong grasp on the logic of programming loops and conditionals, and I understand well how the compiler reads computer code. 
 
-1. Numbered
-2. List
+When I improved my riddle game, I first removed redundant code I found when I performed a code review. I then added more comments and improved existing comments to increase my code’s readability for other developers. I was careful, however, not to add too many comments, knowing it would hinder readability. I then added the login feature that prevents users from playing the game without logging into an account. 
 
-**Bold** and _Italic_ and `Code` text
+To continue, when I made my riddle game artifact, I expected it to meet the fourth and fifth course objectives. I believe the riddle game does meet the fourth objective; I used well-founded techniques and skills to create a valuable artifact. I also believe my riddle game meets the fifth course objective but not as well as I initially planned. The login feature adds a simple layer of security that prevents any user from playing the riddle game without logging in to an account, but the riddle game stores user passwords unencrypted. This is a severe vulnerability. I originally wanted to hash all of the stored passwords, but I was unable to accomplish that goal when I developed the login feature. At the moment, I do not have any updates to my course outcome-coverage plans.
 
-[Link](url) and ![Image](src)
-```
+Next, the riddle game artifact was a rewarding experience once I finally completed it. I learned a great deal. I further developed my understanding of the logic of loops and conditional statements. I also learned something new; I learned about hashmaps, which are the Java equivalent of dictionaries. I did not know that Java does not have dictionaries like other programming languages until I began working on this artifact. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Finally, while the artifact was an extremely rewarding experience, it was also easily the most challenging and time-consuming artifact I worked on this term. My first challenge was created when I overthought the development of my artifact. I tried to develop something far too complex than I needed to or should have. It made the development of the artifact too difficult to handle and cost me a great deal of time. Dumbing the artifact down was also its own time-consuming challenge. I think it provided an excellent learning experience, though, because many software engineering best practices include some form of phrase advocating keeping code simple. I always thought that would be easy, but I realize now that it’s actually quite the challenge to create a complex project with simple code. The biggest challenge I faced was hashing the stored passwords in the login feature. As can be seen in the artifact, it was a challenge I was not able to overcome. Hashing is something I will need to study more of in the future. After I’m through with everything in my capstone, I will direct my focus towards improving my secure coding skills. 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CalvinWi/CalvinWi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Artifact Two  -  The CRUD Operations Python Script
 
-### Support or Contact
+To access the code for this artifact, click [here](https://github.com/CalvinWi/books-CRUD.git).
+This file only works with the books.json file from my third artifact. You can find the file [here](https://github.com/CalvinWi/mongodb-books-collection.git).
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To begin, for my algorithms and data structures artifact, I have created a Python script that interacts with the “books” collection in my MyBookReadingList database from Milestone 4. The script only works with the “books” collection, but the collection can be imported to any local Mongodb database. In the script, there are four functions: one for each CRUD operation. The user chooses which of the operations they want to perform and provides any relevant information. The purpose of the script is to make it easier for users to perform CRUD operations on the “books” collection. It saves the user the trouble of entering the commands manually and with the correct syntax. I created the script a couple of days ago. I waited until the end to make it because I was confident I could complete it quickly and wanted to focus my time on the artifact I knew would be a time-consuming challenge for me: the riddle game.
+
+Moving on, I chose to create this artifact after deciding to make my MyBookReadingList database for my database artifact. I had yet to come up with an artifact that would demonstrate my skills with algorithms. I remembered how tedious it was to manually insert every document into a database and that it was frustrating when I made a small typo that made me have to retype an entire insert-document command. It wasn’t long before I realized I could make algorithms to perform CRUD operations on a Mongodb database as my algorithms and data structures artifact. The major components of my Python script that showcase my skills are the four CRUD functions I created. Each function is an algorithm that takes input from the user and reads from or writes to the “books” collection in my MyBookReadingList Mongodb database. When I created this artifact, it was meant to enhance my database artifact, so there were no improvements made to the Python script, since the script itself is an improvement. That being said, after the script was functional, I did take the time to make the styling of the code consistent throughout the script, and I added comments to further improve readability. 
+
+ To continue, I planned to meet the third course objective with my Python script. The script does meet the objective. The script solves the problem of having to tediously enter Mongodb commands manually by using algorithms to automatically enter some of the command information, simplify entering the information that still needs to be manually entered, and reduce the amount of typos created by the user. I do not have any updates to my outcome-coverage plans at the moment.
+ 
+Wrapping up, I actually really enjoyed developing this Python script more than I thought I would. It was really fun to create a script that could interact with my Mongodb database. The development wasn’t too challenging either. The process served as a good review of Mongodb and Python. I hadn’t used Python in a while when I started working on the script. The biggest learning experience I had was with Pymongo and exception handling. I really struggled with Pymongo when I learned about it in a previous course; I struggled so much that I had to retake the course. After working on the script, though, I feel like I’m becoming comfortable and confident with Pymongo. Exception handling is also something I’ve had difficulties with in the past. The material on exception handling I’ve read hasn’t helped me to understand it very well. However, I think I’ve done a good job with exception handling in my Python script. I believe it is the simplicity of the Python language that makes exception handling easier to understand. 
+
+ Finally, the challenges I faced when making my Python script weren’t too difficult to overcome, but they were numerous. In every function I developed, there were commands that didn’t perform correctly or didn’t work with a certain input type. It took a lot of trial and error to get the code just right. I didn’t mind the work, though, because it provided a challenge that wasn’t frustrating. It was like solving a puzzle. Other than that, the biggest challenge was taking user input and plugging it into Mongodb commands. Some functions were easy, and others were tricky. For example, in the update and delete operations, I had to limit the user to searching for the document they wanted to work on with the “Title” key. Also, the update function only allows the user to update one key/value pair at a time. If a user has multiple key/value pairs to update, they will have to rerun the script for each one. Lastly, the read function only allows the user to make a simple, single-key query. Despite all of that, however, I am still very proud of my Python script. This artifact was definitely my favorite to work on. 
+
+
+### Artifact Three  -  The "books" Collection
+
+To access the code for this artifact, click [here](https://github.com/CalvinWi/mongodb-books-collection.git).
+
+To begin, for my database artifact, I chose my database “MyBookReadingList.” It is a Mongodb database containing the collection “books.” Each document in the collection contains information about one of the books I want to read, including information like the book’s title, author, year of publication, etc. Together, the documents form my personal reading list. This database was made at the beginning of the last term; I had to make it since I had no preexisting database to work with. It ended up being an excellent learning exercise because I had to learn how to setup Mongodb on my personal computer and review some of the material I learned in my Mongodb class.
+
+Moving on, I chose MyBookReadingList for my eportfolio to show that I know how to create and manage databases in Mongodb. The documents and indices in the database showcase my skills. I improved the database by adding more information to each document, adding more documents, and creating indices to optimize querying. I was careful in creating indices. I chose to only create three indices since I know too many indices can negatively impact the time it takes to write to the database. I chose each index to be for a single key I anticipated I would query often. I made an index for the title, author, and genre keys since I imagine I will search the database often for specific titles, authors, and genres. 
+
+Next, I originally planned to meet the fourth course outcome with my database. I believe the database does succeed in accomplishing that outcome because it demonstrates my ability to use Mongodb and database management techniques/strategies. At the present moment, I do not have any updates to my outcome-coverage plans.
+
+Finally, the biggest challenge I faced working on my database artifact was setting up Mongodb on my own system. Installing Mongodb and configuring it correctly took several online guides. In the process, though, I learned about Mongo Compass and how to use it. Mongo Compass is a GUI for Mongodb, and it provides some ease of use features for Mongodb once one gets a feel for it. Another challenge I faced was updating documents in the database. I remembered most of the Mongodb commands after a quick review, but the command I thought would update the documents wouldn’t work. After some studying, I was able to work out the correct command. Other than that, everything went smoothly. The database was a fun project to develop.
+
