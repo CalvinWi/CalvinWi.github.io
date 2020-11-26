@@ -1,4 +1,4 @@
-## Introductions
+## Welcome To My Portfolio
 
 Greetings, my name is Calvin Willoughby. I have recently finished my pursuit of a bachelor’s degree in computer science. In this pursuit, I have explored a great variety of fields in computer science. I have learned about I.T., data mining, website design, mobile design, and even computer graphics just to name a few. As I experienced each field, I didn’t just learn technical information or how to code. I also learned how to work in the computer science industry.
 
