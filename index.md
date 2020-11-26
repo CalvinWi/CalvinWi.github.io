@@ -10,12 +10,6 @@ Don’t let my confidence in my software engineering skills lead you to believe 
 
 The first artifact will showcase my skills in software engineering. The artifact is a simple riddle game made with Java in the Eclipse IDE. The second artifact will showcase my skills in algorithms and data structures. The artifact is a Python script designed to make CRUD operations in a specific Mongodb database more convenient. The final artifact is a collection from a Mongodb database. Clearly, it will showcase my skills with databases. Together, these artifacts will give you a feel for the range of my skills in computer science. 
 
-You can use the [editor on GitHub](https://github.com/CalvinWi/CalvinWi.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-You can see the json file I created to show my skills with Mongodb and database management [here](https://github.com/CalvinWi/mongodb-books-collection).
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 
 ### Artifact One  -  Software Design and Engineering 
 
